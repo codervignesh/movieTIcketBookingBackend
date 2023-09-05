@@ -4,7 +4,7 @@ var routes = require('./routes/routes');
 var mongoose = require('mongoose');
 const cors = require('cors');
 
-mongoose.connect("mongodb+srv://vigneshr2742:XMpViehHRId2uucz@cluster0.nrjlzxu.mongodb.net/movieTicket", {
+mongoose.connect(MongoDB connection string here, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
